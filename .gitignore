@@ -8,3 +8,5 @@ docs/.vuepress/dist/
 book/
 .mdbook-plantuml-cache/
 docs/mdbook-plantuml-img/
+src/docs/scripts/__pychache__
+src/docs/scripts/dao/__pychache__
