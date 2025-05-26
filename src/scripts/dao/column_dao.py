@@ -15,3 +15,4 @@ class ColumnDAO:
         self.db.execute(sql, (board_id,))
         rows = self.db.fetchall()
         return [Column(**row) for row in rows]
+

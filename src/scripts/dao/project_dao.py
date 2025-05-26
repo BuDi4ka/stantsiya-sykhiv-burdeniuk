@@ -15,3 +15,4 @@ class ProjectDAO:
         self.db.execute(sql, (owner_id,))
         rows = self.db.fetchall()
         return [Project(**row) for row in rows]
+

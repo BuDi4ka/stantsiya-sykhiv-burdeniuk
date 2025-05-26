@@ -52,3 +52,4 @@ class Comment:
     author_id: int
     content: str
     timestamp: datetime
+

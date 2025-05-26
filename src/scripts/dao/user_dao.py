@@ -23,3 +23,4 @@ class UserDAO:
         self.db.execute(sql)
         rows = self.db.fetchall()
         return [User(**row) for row in rows]
+

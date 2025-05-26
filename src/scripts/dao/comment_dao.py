@@ -15,3 +15,4 @@ class CommentDAO:
         self.db.execute(sql, (task_id,))
         rows = self.db.fetchall()
         return [Comment(**row) for row in rows]
+

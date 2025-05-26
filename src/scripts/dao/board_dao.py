@@ -15,3 +15,4 @@ class BoardDAO:
         self.db.execute(sql, (project_id,))
         rows = self.db.fetchall()
         return [Board(**row) for row in rows]
+

@@ -11,3 +11,4 @@ class TaskColumnLinkDAO:
         self.db.execute(sql, (task_id,))
         rows = self.db.fetchall()
         return [row['column_id'] for row in rows]
+

@@ -35,3 +35,4 @@ class TaskDAO:
         if row:
             return Task(**row)
         return None
+
